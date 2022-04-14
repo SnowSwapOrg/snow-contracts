@@ -10,4 +10,5 @@ deploy-staker  :; dapp create StakingRewardsFactory @fee_setter
 deploy-router  :; dapp create SnowRouter @factory @weth
 deploy-wallet  :; dapp create MultiSigWallet ["0x0f14341A7f464320319025540E8Fe48Ad0fe5aec","0x05e0375b33aeF6a5BC6c02f52E02F62aadc586FE","0x74003cbD6c4f34a8380BB6e8b07914c8f381D864"] 2
 
+.PHONY: clean
 .PHONY: build-factory build-router build-staker
