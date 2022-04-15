@@ -12,3 +12,4 @@ deploy-wallet  :; dapp create MultiSigWallet ["0x0f14341A7f464320319025540E8Fe48
 
 .PHONY: clean
 .PHONY: build-factory build-router build-staker
+.PHONY: deploy-factory deploy-staker deploy-router deploy-wallet
